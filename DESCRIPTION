@@ -1,0 +1,33 @@
+Package: MIRADUS
+Type: Package
+Title: An R Package with irrigation data from USGS
+Version: 0.1.0
+Authors@R:c(
+    person("C A", "Pellett", , "c.alex.pellett@gmail.com", role = c("aut","cre")),
+    person("N J", "Pinder", , "nicholas.pinder@des.sc.gov", role = c("aut")),
+    person("State of South Carolina Department of Environmental Services", role = "fnd")
+  )
+Maintainer: Nicholas Pinder <nicholas.pinder@des.sc.gov>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: file LICENSE
+Depends: 
+    R (>= 4.5)
+Imports: 
+    dplyr,
+    methods,
+    sf,
+    sp,
+    stringr,
+    tibble,
+    tidyr,
+    zoo, 
+    ggplot2
+Suggests: 
+    knitr,
+    testthat, 
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
